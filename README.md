@@ -1,7 +1,7 @@
-# Animal Faces Classification using Convolutional Neural Network (CNN)
+# Image Classification using Convolutional Neural Network (CNN)
 
 ## Overview
-This project implements a deep learning pipeline to classify images of animal faces using a Convolutional Neural Network (CNN). The dataset is downloaded from Kaggle and consists of images categorized into different animal classes.
+This project implements a deep learning pipeline to classify images of animal faces and bean-leaf-lesions using a Convolutional Neural Network (CNN) and pretrained model. The dataset is downloaded from Kaggle and consists of images categorized into different classes.
 
 ## Features
 - Automatically downloads and prepares the dataset from Kaggle.
@@ -34,6 +34,7 @@ pip install torch torchvision numpy pandas matplotlib opendatasets scikit-learn 
 The dataset is automatically downloaded from Kaggle. If you haven't set up Kaggle API access, ensure you have an API key stored in `~/.kaggle/kaggle.json`.
 
 Dataset URL: [Animal Faces Dataset](https://www.kaggle.com/datasets/andrewmvd/animal-faces)
+Dataset URL: [Bean Leaf Lesions Dataset](https://www.kaggle.com/datasets/marquis03/bean-leaf-lesions-classification)
 
 ## Steps
 ### 1. Data Preparation
