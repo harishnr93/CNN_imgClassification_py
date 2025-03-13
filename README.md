@@ -1,4 +1,4 @@
-# Animal Faces and Bean Leaf Lesions Classification using CNN
+# Animal Faces and Bean Leaf Lesions Classification
 
 ## Overview
 This project implements a deep learning pipeline to classify images using a Convolutional Neural Network (CNN). The dataset is downloaded from Kaggle and consists of images categorized into different classes.
