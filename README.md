@@ -1,7 +1,7 @@
-# Image Classification using Convolutional Neural Network (CNN)
+# Animal Faces and Bean Leaf Lesions Classification using CNN
 
 ## Overview
-This project implements a deep learning pipeline to classify images of animal faces and bean-leaf-lesions using a Convolutional Neural Network (CNN) and pretrained model. The dataset is downloaded from Kaggle and consists of images categorized into different classes.
+This project implements a deep learning pipeline to classify images using a Convolutional Neural Network (CNN). The dataset is downloaded from Kaggle and consists of images categorized into different classes.
 
 ## Features
 - Automatically downloads and prepares the dataset from Kaggle.
@@ -59,7 +59,7 @@ The CNN model consists of:
 ### 4. Training Process
 - Uses cross-entropy loss.
 - Adam optimizer with a learning rate of `1e-4`.
-- Trains for 10 epochs.
+- Trains for multiple epochs.
 - Tracks and plots training and validation accuracy/loss.
 
 ### 5. Evaluation
@@ -73,7 +73,8 @@ The CNN model consists of:
 - Decodes the predicted label using `LabelEncoder`.
 
 ## Results
-- Accuracy and loss graphs are saved as `training_progress.png`.
+- Accuracy and loss graphs are saved as `training_progress.png`and `training_loss_accuracy.png`.
+- Sample visualized images are saved as `image_grid.png` and `visualize_imgs.png`.
 - Sample inference images are saved as `inf_img1.png` and `inf_img2.png`.
 - Predictions for new images are displayed in the console.
 

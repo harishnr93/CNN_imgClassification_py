@@ -1,0 +1,70 @@
+ubuntu@harish:~/workspace$ /bin/python3 /home/harish/workspace/pytorch/imageClassifcation_Pretrained.py
+Skipping, found downloaded files in "./bean-leaf-lesions-classification" (use force=True to force download)
+
+Dataset downloaded successfully!
+
+Device available: cuda
+
+Data shape is:  (1167, 2)
+
+DataFrame Samples: 
+                                          image:FILE  category
+0  ./bean-leaf-lesions-classification/train/healt...         0
+1  ./bean-leaf-lesions-classification/train/healt...         0
+2  ./bean-leaf-lesions-classification/train/healt...         0
+3  ./bean-leaf-lesions-classification/train/healt...         0
+4  ./bean-leaf-lesions-classification/train/healt...         0
+
+Classes are: 
+[0 1 2]
+
+Classes ditrubution are: 
+
+category
+2    393
+1    389
+0    385
+
+Name: count, dtype: int64
+
+Visual images saved as 'visualize_imgs.png'
+
+Linear(in_features=1024, out_features=1000, bias=True)
+
+=======================================================
+Epoch 1/15, Train Loss: 1.9879 Train Accuracy 51.1628%
+=======================================================
+Epoch 2/15, Train Loss: 1.8215 Train Accuracy 60.3427%
+=======================================================
+Epoch 3/15, Train Loss: 1.6435 Train Accuracy 65.1163%
+=======================================================
+Epoch 4/15, Train Loss: 1.4536 Train Accuracy 70.1346%
+=======================================================
+Epoch 5/15, Train Loss: 1.4578 Train Accuracy 69.2778%
+=======================================================
+Epoch 6/15, Train Loss: 1.2944 Train Accuracy 75.0306%
+=======================================================
+Epoch 7/15, Train Loss: 1.1925 Train Accuracy 76.6218%
+=======================================================
+Epoch 8/15, Train Loss: 1.2455 Train Accuracy 75.2754%
+=======================================================
+Epoch 9/15, Train Loss: 1.122 Train Accuracy 78.9474%
+=======================================================
+Epoch 10/15, Train Loss: 1.1747 Train Accuracy 76.989%
+=======================================================
+Epoch 11/15, Train Loss: 0.9915 Train Accuracy 80.1714%
+=======================================================
+Epoch 12/15, Train Loss: 1.0221 Train Accuracy 81.1506%
+=======================================================
+Epoch 13/15, Train Loss: 0.9397 Train Accuracy 83.7209%
+=======================================================
+Epoch 14/15, Train Loss: 0.8982 Train Accuracy 82.7417%
+=======================================================
+Epoch 15/15, Train Loss: 0.9336 Train Accuracy 83.5985%
+=======================================================
+----------------------------------------
+Accuracy Score is: 79.14%
+----------------------------------------
+Training Loss and Accurancy plot saved as 'training_loss_accuracy.png'
+----------------------------------------
+ubuntu@harish:~/workspace$
